@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 3em;
+        }
+
+        .info {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 30px;
+            width: 60%;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .info:hover {
+            transform: scale(1.03);
+        }
+
+        img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 style="color: darkblue;">Who Am I</h1> <!-- Inline style -->
+
+    <div class="info">
+        <img src="gambo.jpg" alt="Profile Picture" class="profile-pic">
+        <p><strong>Full Name:</strong> Muhammad Aliff Omar</p>
+        <p><strong>Age:</strong> 28</p>
+        <p><strong>Educational Background:</strong> Bachelor of New Media Communication, UNIMAP </p>
+    </div>
+
+</body>
+</html>
+
+
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+strong {
+    color: #111;
+    font-weight: bold;
+}
